@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.urls import path
 
 from crud import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('', views.homepage),
@@ -10,3 +11,5 @@ urlpatterns = [
     path('count/', views.count),
     path('new/', views.new, name='news')
 ]
+
+urlpatterns += staticfiles_urlpatterns()
