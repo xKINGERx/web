@@ -1,17 +1,24 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/countcss.css' %}" />
     <title>Counter</title>
 </head>
 <body>
+<h1> Write or paste something to count the words </h1>
+<div class="main">
 
-<form action="{% url 'news' %}">
-    <textarea name="fulltextarea" cols="40" row="10"></textarea>
-    <br />
-    <input type="Submit"  value="Count!/">
+  <form action="{% url 'news' %}">
+      <textarea name="fulltextarea" cols="60" rows="30"></textarea>
+      <br />
+      <input type="Submit"  value="Count!">
+      <h3> Or </h3>
+      <input type=button value="Go to home" onClick="javascript:history.go(-1);">
 
-</form>
 
+  </form>
+</div>
 </body>
 </html>

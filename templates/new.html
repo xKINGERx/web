@@ -1,15 +1,20 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>COunted Result</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/atomcss.css' %}" />
+    <title> Counted Result </title>
 </head>
 <body>
-<h1> Counted </h1>
-{{typeddata}}
+<h1> Result </h1>
+<p class="typeddata"> {{typeddata}} </p>
 <h3> The total words are: </h3>
 
-{{fulltext}}
+<p class= 'result'> {{fulltext}} </p>
+
+<input type=button value="Previous Page" onClick="javascript:history.go(-1);">
 
 </body>
 </html>

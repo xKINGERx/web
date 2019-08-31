@@ -9,7 +9,9 @@ urlpatterns = [
     path('', views.homepage),
     path('admin/', admin.site.urls),
     path('count/', views.count),
-    path('new/', views.new, name='news')
+    path('new/', views.new, name='news'),
+    path('contact/', views.contact),
+    path('gallery/', views.gallery),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

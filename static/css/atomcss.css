@@ -1,0 +1,41 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-image: url('atom-back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.typeddata{
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+
+h3{
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.result{
+  text-align: center;
+  font-size: 30px;
+}
+
+input{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+}

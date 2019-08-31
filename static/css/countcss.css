@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-image: url('cool-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+}
+
+h1{
+  margin: 5px;
+  text-align: center;
+}
+
+.main{
+
+  margin: 70px;
+  width: 500px;
+}
+
+form textarea{
+  display: inline;
+  background-color: white;
+}
+
+form input{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+form input:hover{
+  background-color: black;
+  color: white;
+}
+
+input{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+h3{
+    display: inline;
+}
